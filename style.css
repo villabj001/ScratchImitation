@@ -49,3 +49,14 @@ html, body {
 #header li:hover {
   background-color: #4d6bff;
 }
+
+#header input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  background: #4d6bff;
+  color: white;
+}

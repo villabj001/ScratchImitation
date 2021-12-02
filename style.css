@@ -7,7 +7,7 @@ html, body {
     font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
     }
     
- #header {
+#header {
     position: fixed;
     top: 0;
     left: 0;
@@ -16,7 +16,15 @@ html, body {
     height: 55px;
     
 }
-
+a {
+  color: inherit;
+  text-decoration: inherit;
+  display: inline-block;     
+  position: relative;    
+  z-index: 1;     
+  padding: 2em;     
+  margin: -2em; 
+}
 .scratch {
   position: absolute;
   bottom: 10px;
@@ -32,31 +40,34 @@ html, body {
   transform: scale(1.1);
 }
 
-#header li{
-  left: 500px;
-  white-space: nowrap;
+#header li:not(.search){
+
   color: white;
   font-size: 13.6px;
   font-weight: bold;
-  display: inline-block;
   padding: 19px;
   position: relative;
 }
 
-#header li:hover {
-  background-color: #4280d7;
-}
-
-#search input[type=text] {
-  float: right;
-  margin-right: 100px;
-  border-radius: 7px;
-  padding: 10px;
+form input[type=text]{
+  border-radius: 6px;
+  padding: 13px;
   border: none;
-  top: 8px;
-  right: 16px;
   font-size: 13.6px;
   background: #4588E5;
   color: white;
-  position: absolute;
+  
 }
+
+#header li {
+  display: inline-block;
+  position: relative;
+  left: 500px;
+}
+
+#header li:hover:not(.search) {
+  background-color: #4280d7;
+}
+
+
+

@@ -48,12 +48,14 @@ html, body {
 }
 
 #header input[type=text] {
-  float: right;
-  padding: 6px;
+  display: inline-block;
+  position: relative;
+  border-radius: 7px;
+  padding: 10px;
   border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-  background: #4d6bff;
+  top: 8px;
+  right: 16px;
+  font-size: 12px;
+  background: #4588E5;
   color: white;
 }

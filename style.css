@@ -8,14 +8,13 @@ html, body {
     }
     
  #header {
-    display: block;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #4d97ff;
     width: 100%;
     height: 50px;
-    display: inline-block
+    display: inline-block;
 }
 
 .scratch {
@@ -26,9 +25,7 @@ html, body {
 }
 
 .scratch#hover {
-  position:relative;
-  width= 90;
-  height= 35px;
+  position: relative;
 }
 
 #header .scratch img:hover {
@@ -39,7 +36,7 @@ html, body {
   left: 500px;
   white-space: nowrap;
   color: white;
-  font-size: .85rem;
+  font-size: 13.6px;
   font-weight: bold;
   display: inline-block;
   padding: 17px;
@@ -47,7 +44,7 @@ html, body {
 }
 
 #header li:hover {
-  background-color: #4d6bff;
+  background-color: #4280d7;
 }
 
 #header input[type=text] {

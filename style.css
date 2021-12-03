@@ -6,14 +6,7 @@ html, body {
      color: #575e75;
      font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
- #header {
-     position: fixed;
-     top: 0;
-     left: 0;
-     background-color: #4d97ff;
-     width: 100%;
-     height: 55px;
-}
+
  a {
      color: inherit;
      text-decoration: inherit;
@@ -23,6 +16,8 @@ html, body {
      padding: 2em;
      margin: -2em;
 }
+
+/*Scratch Logo*/
  .scratch {
      position: absolute;
      bottom: 10px;
@@ -32,9 +27,24 @@ html, body {
  .scratch#hover {
      position: relative;
 }
+
  #header .scratch img:hover {
      transform: scale(1.1);
 }
+/*---------------------*/
+
+
+/*Nav Bar Blue*/
+ #header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: #4d97ff;
+     width: 100%;
+     height: 55px;
+}
+
+
  #header li:not(.search){
      color: white;
      font-size: 13.6px;
@@ -58,6 +68,10 @@ html, body {
  #header li:hover:not(.search) {
      background-color: #4280d7;
 }
+/*---------------------*/
+
+
+/*Green Background*/
 .greenthing {
      background-color: #0fbd8c;
      width:100%;
@@ -83,3 +97,7 @@ font-size: .75rem;
 font-weight: bold;
 
 }
+/*---------------------*/
+
+
+/*Bubbles*/

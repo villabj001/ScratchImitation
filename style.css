@@ -27,8 +27,8 @@ ul {
      display: inline-block;
      position: relative;
   
-     padding: 2em;
-     margin: -2em;
+     padding: 32px;
+     margin: -32px;
 }
 
 .BlueBanner a{

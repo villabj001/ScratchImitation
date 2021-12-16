@@ -128,7 +128,7 @@ ul {
 	border: 0;
 	border-radius: 8px;
 	background-color: #4d97ff;
-	padding: 1em 1.25em;
+	padding: 16px 20px;
 	color: white;
 	font-size: 12.8px;
 	font-weight: bold;
@@ -324,15 +324,15 @@ ul {
 
 #donor {
     color: #575e75;
-    font-size: .875rem;
-    line-height: 1.5em;
+    font-size: 14px;
+    line-height: 24px;
     background-color: #f2f2f2;
-    padding-bottom: 2.5rem;
-    padding-top: 1rem;
+    padding-bottom: 40px;
+    padding-top: 16px;
 }
 
 #donor #donor-text {
     text-align: center;
-    width: 58.75em;
+    width: 940px;
     margin: 0 auto;
 }
